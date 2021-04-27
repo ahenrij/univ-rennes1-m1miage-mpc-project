@@ -42,11 +42,11 @@ In a first time we computed the generalization error made by the model using all
 #### __Variable selection__
 We therefore used several variable selection algorithm aiming at selecting the best set of variables that make the lowest possible error in multiple linear regression. The algorithms implemented are : 
 
-    * Forward and Backward selection based on generalization error with strict stop criterion.
+- Forward and Backward selection based on generalization error with strict stop criterion.
 
-    * Forward and Backward selection based on generalization error without stop criterion: keeping the best model
+- Forward and Backward selection based on generalization error without stop criterion: keeping the best model
 
-    * Forward selection based on variables influence (p-value) without stop criterion (keep the best). No backward because we wanted the most significant variables together.
+- Forward selection based on variables influence (p-value) without stop criterion (keep the best). No backward because we wanted the most significant variables together.
 
 After applying each variables selection, we compare their generalization errors with __Mean Squared Error__ and __K-Fold Cross Validation.__
 
