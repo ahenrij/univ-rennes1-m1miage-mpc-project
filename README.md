@@ -30,7 +30,7 @@ and there are strong correlation between those variables taken in pairs.
 
 ### __Simple Linear Regression__
 
-We tried each single variable and compared their model's r-square, residuals and p-value. Then we compared the generalization error made using each one of them.
+We tried each single variable and compared their model's r-squared, residuals and p-value values. Then we compared the generalization error made using each one of them.
 The best variables here were __sqft_living__ and __grade__. 
 
 <br>
