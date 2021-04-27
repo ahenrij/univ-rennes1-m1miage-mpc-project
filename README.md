@@ -13,7 +13,7 @@ Above all, we used some python librairies for purpose, listed in the __requireme
 <br>
 
 #### __IMPORTANT !__
-It's worth to underline that we created a section for all __utilities functions__ that we used in the notebook, right after our descriptive analysis of variables. Also, __the notebook contains more specific details__ of each step of our process and the noted results. Here we will just explain globally our process and the end results.
+It's worth to underline that we created a section for all __utilities functions__ that we used in the notebook, right after our descriptive analysis of variables. Also, __the notebook contains more specific details__ of each step of our process and the noted results. Here we will just explain globally the process we followed and the end results.
 
 <br>
 
