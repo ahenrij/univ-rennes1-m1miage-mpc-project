@@ -4,9 +4,11 @@ __Team members__
 * Henri Aïdasso
 * Octaviana Diaconu
 
+<br>
+
 ## __Houses Price prediction__
 
-Above all, we used some python librairies for purpose, listed in the requirements.txt file, please make sure your environment satisfy these requirements before running the notebook. Otherwise, you may also just read the notebook's outputs.
+Above all, we used some python librairies for purpose, listed in the __requirements.txt__ file, please make sure your environment satisfy these requirements before running the notebook. Otherwise, you may also just read the notebook's outputs.
 
 <br>
 
@@ -83,5 +85,6 @@ If p-value is not specified, then we used generalization error for the selection
 <br>
 Computing started to take a long time. 
 The best selection found so far is therefore the one made with variables at powers 2 and 3 selected in forward based on generalization error with strict stop criterion even if we had less error in training with more variables. 
+<br>
 
 __MNLR with power 2,3 forward strict__
