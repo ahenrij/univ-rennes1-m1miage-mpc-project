@@ -24,7 +24,7 @@ From the correlation matrix we notice that :
 - waterfront is mostly null
 - lat, long: have almost constants values
 
-and there are strong correlation between those variables taken in pairs
+and there are strong correlation between those variables taken in pairs.
 
 <br>
 
