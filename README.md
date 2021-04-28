@@ -60,7 +60,11 @@ We added in a first variable squared, then variables at power 2 and 3 and finall
 
 At each step we found a better selection that decreased the generalization error by comparing __MSE__ and __K-Fold__ cross validation errors. Nevertheless we found that p-value was not at some point the best criterion for selecting our variables.
 
-Also, having a lower generalization error did not always mean that we had a lower error on the Kaggle competition prediction, espcially when we used 90 variables (variables at power 2-6 added).
+Also, having a lower generalization error did not always mean that we had a lower error on the Kaggle competition prediction, espcially when we used 90 variables (variables at power 2-5 added).
+
+At the end the best performance (lowest error) that we found was after adding variables at powers 2 to 10
+(x¹ to x¹⁰) and performing a forward variable selection based on generalization error with early stopping.
+Also, predicting new values (competiton) using only the train split dataset was better with that latest model than using the whole dataset.
 
 A summary of our results is in the table below:
 
@@ -80,13 +84,14 @@ If p-value is not specified, then we used generalization error for the selection
 | MNLR with power 2 forward p-value   |   3.57610  |    3.24439   |
 | MNLR with power 2 forward           |   3.57433  |    2.89440   |
 | MNLR with power 2,3 forward         |   3.20178  |    2.57199   |
-| MNLR with power 2,3 forward strict  |   3.20014  |  __2.57134__ |
-| MNLR with power 2-6 forward strict  |   3.18872  |    2.59864   |
+| MNLR with power 2,3 forward strict  |   3.20014  |    2.57134   |
+| MNLR with power 2-5 forward strict  |   3.18872  |    2.59864   |
+| MNLR with power 2-10 forward strict |   3.18157  |  __2.48896__ |
 
 
 <br>
 Computing started to take a long time. 
-The best selection found so far is therefore the one made with variables at powers 2 and 3 selected in forward based on generalization error with strict stop criterion even if we had less error in training with more variables. 
+The best selection found so far is therefore the one made with variables x¹ to x¹⁰ selected in forward based on generalization error with strict stop criterion. 
 <br>
 
-__MNLR with power 2,3 forward strict__
+__MNLR with power 2-10 forward strict__
