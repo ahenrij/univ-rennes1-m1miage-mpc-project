@@ -95,3 +95,16 @@ The best selection found so far is therefore the one made with variables x¹ to 
 <br>
 
 __MNLR with power 2-10 forward strict__
+
+
+<br><br><br>
+
+### __Going further with XGBoost !__
+There are several ML algorithms to perform linear regression aiming at decreasing the mean squared error (among over loss metrics). We choosed to give a try to the Extreme Gradient Boosting.
+
+The results found are below :
+
+
+| Model                               | Gen. Error | Kaggle Error |
+|-------------------------------------|:----------:|:------------:|
+|  XGBoost with features selection    |   1.30622  |  __1.40666__ |
