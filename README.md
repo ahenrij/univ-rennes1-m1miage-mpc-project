@@ -108,3 +108,7 @@ The results found are below :
 | Model                               | Gen. Error | Kaggle Error |
 |-------------------------------------|:----------:|:------------:|
 |  XGBoost with features selection    |   1.30622  |  __1.40666__ |
+
+<br><br>
+
+We could have better performances with some data pre-processing and hyperparamters tuning but those are way out of the scope of this course.
